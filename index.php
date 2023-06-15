@@ -13,7 +13,11 @@
 <body>
     <!-- Navbar -->
     <div class="navbar_div">
-        <?php include 'frontend/view/component/navbar.php' ?>
+        <?php include 'frontend/view/component/navbar.php'; ?>
+    </div>
+    <!-- Navbar_bootom -->
+    <div>
+        <?php include 'frontend/view/component/navbar_bottom.php'; ?>
     </div>
 
     <div class="mainbody_div">
@@ -98,17 +102,20 @@
             <div class="articles_suggestion">
                 <div class="article_suggesttion_x">
                     <img src="frontend/assets/images/datastruct.jpg" class="pict_article_suggest" alt="image_art_suggest">
-                    <span class="title_article_suggest">Static data Structures<a class="link_article_suggest">view</a></span>
+                    <span class="title_article_suggest">Static data Structures
+                        <a class="link_article_suggest" href="https://www.facebook.com/photo/?fbid=144564908553344&set=pb.100089995069982.-2207520000.">view</a></span>
                 </div>
 
                 <div class="article_suggesttion_x">
                     <img src="frontend/assets/images/sunset.jpg" class="pict_article_suggest" alt="image_art_suggest">
-                    <span class="title_article_suggest">Amaizing sunset at Lilby<a class="link_article_suggest">view</a></span>
+                    <span class="title_article_suggest">Amaizing sunset at Lilby
+                        <a class="link_article_suggest" href="https://www.facebook.com/photo/?fbid=111015561908279&set=pb.100089995069982.-2207520000.">view</a></span>
                 </div>
 
                 <div class="article_suggesttion_x">
-                    <img src="frontend/assets/images/me.jpg" class="pict_article_suggest" alt="image_art_suggest">
-                    <span class="title_article_suggest">The virtual version of G<a class="link_article_suggest">view</a></span>
+                    <img src="frontend/assets/images/memocraft.png" class="pict_article_suggest" alt="image_art_suggest">
+                    <span class="title_article_suggest">The virtual version of G
+                        <a class="link_article_suggest" href="https://www.twitter.com/memocraftapp">view</a></span>
                 </div>
             </div>
             <!-- space -->
@@ -118,8 +125,9 @@
             <!-- Last twet -->
             <h3>Last tweet</h3>
             <div class="article_suggesttion_x">
-                <img src="frontend/assets/images/me.jpg" class="pict_article_suggest" alt="image_art_suggest">
-                <span class="title_article_suggest">Memocraft - The App<a class="link_article_suggest">view</a></span>
+                <img src="frontend/assets/images/memocraft.png" class="pict_article_suggest" alt="image_art_suggest">
+                <span class="title_article_suggest">Memocraft - The App
+                    <a class="link_article_suggest" href="https://www.twitter.com/memocraftapp">view</a></span>
             </div>
             <!-- space -->
             <div class="space"></div>
@@ -128,12 +136,14 @@
             <!-- Last post from IG and FB -->
             <h3>Last post</h3>
             <div class="article_suggesttion_x">
-                <img src="frontend/assets/images/me.jpg" class="pict_article_suggest" alt="image_art_suggest">
-                <span class="title_article_suggest">Static data Structures<a class="link_article_suggest">view</a></span>
+                <img src="frontend/assets/images/datastruct.jpg" class="pict_article_suggest" alt="image_art_suggest">
+                <span class="title_article_suggest">Static data Structures
+                    <a class="link_article_suggest" href="https://www.facebook.com/photo/?fbid=144564908553344&set=pb.100089995069982.-2207520000.">view</a></span>
             </div>
             <div class="article_suggesttion_x">
-                <img src="frontend/assets/images/me.jpg" class="pict_article_suggest" alt="image_art_suggest">
-                <span class="title_article_suggest">Tropea by night<a class="link_article_suggest">view</a></span>
+                <img src="frontend/assets/images/sunset.jpg" class="pict_article_suggest" alt="image_art_suggest">
+                <span class="title_article_suggest">Tropea by night
+                    <a class="link_article_suggest" href="https://www.facebook.com/photo/?fbid=111015561908279&set=pb.100089995069982.-2207520000.">view</a></span>
             </div>
             <!-- Footer -->
             <div class="footer_suggestions">
@@ -142,6 +152,8 @@
                 <div class="space"></div>
                 <?php include 'frontend/view/component/footer.php' ?>
             </div>
+            <!-- space -->
+            <div class="space_footer"></div>
         </div>
 
     </div>
