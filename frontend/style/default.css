@@ -22,7 +22,7 @@ li a:hover:not(.active) {
     border-radius: 10px;
 }
 
-.navbar_div, .mainbody_div{
+.navbar_div, .mainbody_div, .wall, .suggestions{
     display: inline-block;
     vertical-align: top;
 }
@@ -34,7 +34,6 @@ li a:hover:not(.active) {
     border-right: 1px solid #F2F2F2;
 }
 .mainbody_div {
-    background-color: #000;
     margin-left: 300px;
 }
 .menu_icon, .menu_text {
@@ -43,4 +42,43 @@ li a:hover:not(.active) {
 }
 .menu_text {
     margin-left: 20px;
+}
+.card img {
+    width: 600px;
+}
+.card, .wall{
+    width: 600px;
+}
+.space {height: 20px;}
+.divider {
+    height:0.01px;
+    color:#F2F2F2;
+}
+.footer {
+    text-align: center;
+}
+
+.footer svg {
+    padding-left: 1px;
+}
+
+.copyright {
+    font-size: xx-small;
+    color: gray;
+}
+.suggestions {
+    padding-left: 100px;
+}
+.post_category {
+    width:fit-content;
+    padding-bottom: 7px;
+    border-bottom: solid 1px #000;
+}
+.post_author {
+    border-right: solid 1px #000;
+    padding-right: 7px;
+}
+.post_datum {
+    padding-left: 7px;
+    color: gray;
 }
