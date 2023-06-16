@@ -112,6 +112,9 @@
     .navbar_div {
         display: none;
     }
+    .bottom_navbar { 
+        display: block;
+    }
     .mainbody_div {
         padding-left: 5%;
         width: 100%;
