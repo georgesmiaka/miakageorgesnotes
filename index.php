@@ -16,11 +16,6 @@
     <div class="navbar_div">
         <?php include 'frontend/view/component/navbar.php'; ?>
     </div>
-    <!-- Navbar_bootom -->
-    <div>
-        <?php include 'frontend/view/component/navbar_bottom.php'; ?>
-    </div>
-
     <div class="mainbody_div">
         <!-- Block1: Wall -->
         <div class="wall">
@@ -29,7 +24,7 @@
                 <p class="post_category">Programming</p>
                 <h1>Presentation</h1>
                 <h5>Unleashing Creativity and Innovation: Exploring my Programming Journey and Passion for Innovation.</h5>
-                <p>By <b class="post_author">Georges Miaka</b>
+                <p class="post_author_datum">By <b class="post_author">Georges Miaka</b>
                     <spam class="post_datum">June 13, 2023 - 5min read</spam>
                 </p>
                 <div class="card">
@@ -51,7 +46,7 @@
                 <p class="post_category">Discovery</p>
                 <h1>Natural structures</h1>
                 <h5>Unraveling the Mysteries: A Journey into Scientific Discovery and Advancement.</h5>
-                <p>By <b class="post_author">Georges Miaka</b>
+                <p class="post_author_datum">By <b class="post_author">Georges Miaka</b>
                     <spam class="post_datum">June 13, 2023 - 5min read</spam>
                 </p>
                 <div class="card">
@@ -74,7 +69,7 @@
                 <h1>Exploring the World</h1>
                 <h5>Framing the World: Exploring the Art and Craft of Photography to Capture
                     Moments of Beauty and Tell Stories Through Images.</h5>
-                <p>By <b class="post_author">Georges Miaka</b>
+                <p class="post_author_datum">By <b class="post_author">Georges Miaka</b>
                     <spam class="post_datum">June 13, 2023 - 5min read</spam>
                 </p>
                 <div class="card">
@@ -157,6 +152,10 @@
             <div class="space_footer"></div>
         </div>
 
+    </div>
+    <!-- Navbar_bootom -->
+    <div>
+        <?php include 'frontend/view/component/navbar_bottom.php'; ?>
     </div>
 </body>
 
