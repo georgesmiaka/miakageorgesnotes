@@ -31,7 +31,7 @@
                 <div class="card">
                     <img src="frontend/assets/images/prog.jpg" class="card-img-top" alt="image_post">
                     <div class="card-body">
-                        <p class="card-text">
+                        <p class="card-text article_text">
                             As a software developer, I constantly strive to keep up with the latest trends and
                             seek out new challenges. Programming is my passion, and I find creative freedom in it.
                         </p>
@@ -53,7 +53,7 @@
                 <div class="card">
                     <img src="frontend/assets/images/science1.png" class="card-img-top" alt="image_post">
                     <div class="card-body">
-                        <p class="card-text">
+                        <p class="card-text  article_text">
                             As a science enthusiast, I have always been fascinated by the intricacies of
                             the natural world and the way that science helps us understand it.
                         </p>
@@ -76,7 +76,7 @@
                 <div class="card">
                     <img src="frontend/assets/images/me.png" class="card-img-top" alt="image_post">
                     <div class="card-body">
-                        <p class="card-text">
+                        <p class="card-text  article_text">
                             My love for photography has also inspired me to explore new places and seek out unique and interesting subjects to photograph.
                             Whether I'm writing code, exploring the wonders of the natural world, or capturing the essence of a unique subject through
                             my camera lens, I am constantly discovering new ways to challenge myself and expand my horizons.
@@ -92,7 +92,7 @@
             <div class="footer_wall"><?php include 'frontend/view/component/footer.php' ?></div>
         </div>
         <!-- Block2: suggestions -->
-        <div class="suggestions">
+        <div class="suggestions article_text">
             <!-- Tree articles as suggestion -->
             <h3>Suggested for you</h3>
             <div class="space"></div>

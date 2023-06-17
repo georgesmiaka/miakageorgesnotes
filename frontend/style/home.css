@@ -76,8 +76,20 @@
     padding-left: 5px;
 }
 
-.link_article_suggest {
+.link_article_suggest:link {
     padding-left: 10px;
+    text-decoration: none;
+    color: #212121;
+}
+.link_article_suggest:visited {
+    text-decoration: none;
+    color: gray;
+}
+.link_article_suggest:hover {
+    text-decoration: underline;
+    color: blue;
+}
+.link_article_suggest:active {
     text-decoration: underline;
     color: blue;
 }
@@ -85,3 +97,5 @@
 .article_suggesttion_x {
     padding-bottom: 15px;
 }
+
+  
