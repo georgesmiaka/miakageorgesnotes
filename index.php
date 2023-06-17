@@ -9,6 +9,7 @@
     <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/blog/">
     <link href="frontend/style/default.css" rel="stylesheet" type="text/css">
     <link href="frontend/style/home.css" rel="stylesheet" type="text/css">
+    <link href="frontend/style/responsive.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>

@@ -24,8 +24,8 @@ li a:hover:not(.active),
 .space {
     height: 20px;
 }
-.space {
-    height: 20px;
+.space_footer {
+    height: 60px;
 }
 .divider {
     height: 0.01px;
