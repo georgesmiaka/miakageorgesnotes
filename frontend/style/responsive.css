@@ -20,30 +20,52 @@
         display: none;
     }
 }
+
 @media (max-width:600px) {
     .navbar_div {
         display: none;
     }
-    .bottom_navbar { 
+
+    .bottom_navbar {
         display: block;
     }
+
     .mainbody_div {
         padding-left: 5%;
         width: 100%;
     }
+
     .wall,
     .suggestions {
         width: 95%;
     }
 }
+
 @media (max-width:445px) {
-    .post_author_datum {
-       font-size: 10px;
+
+    .post_author_datum,
+    .project_author_datum {
+        font-size: 10px;
     }
 }
+
 @media (max-width:285px) {
     .bottom_navbar a:not(.simple_menu) {
         display: none;
+    }
+
+}
+
+
+@media (max-width:800px) {
+
+    .project_presentation_text,
+    .project_presentation_card {
+        display: block;
+        width: 90%;
+    }
+    .project_presentation_card {
+        padding-left: 0%;
     }
 
 }

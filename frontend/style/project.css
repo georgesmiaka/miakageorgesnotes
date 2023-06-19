@@ -1,0 +1,39 @@
+.project_presentation_text,
+.project_presentation_card{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.project_presentation_text {
+    width: 45%;
+}
+
+.project_presentation_card {
+    padding-left: 7px;
+    width: 45%;
+}
+
+.project_presentation_card img {
+    width: 95%;
+}
+
+.project_category {
+    width: fit-content;
+    padding-bottom: 7px;
+    border-bottom: solid 1px #000;
+}
+.project_author {
+    border-right: solid 1px #000;
+    padding-right: 7px;
+}
+
+.project_datum {
+    padding-left: 7px;
+    color: gray;
+}
+.project_presentation h5 {
+    width: 90%;
+}
+.card-text {
+    text-align: center;
+}
