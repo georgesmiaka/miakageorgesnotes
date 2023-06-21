@@ -26,7 +26,7 @@
                 <h1>Presentation</h1>
                 <h5>Unleashing Creativity and Innovation: Exploring my Programming Journey and Passion for Innovation.</h5>
                 <p class="post_author_datum">By <b class="post_author">Georges Miaka</b>
-                    <spam class="post_datum">June 13, 2023 - 5min read</spam>
+                    <spam class="post_datum">June 13, 2023</spam>
                 </p>
                 <div class="card">
                     <img src="frontend/assets/images/prog.jpg" class="card-img-top" alt="image_post">
@@ -48,7 +48,7 @@
                 <h1>Natural structures</h1>
                 <h5>Unraveling the Mysteries: A Journey into Scientific Discovery and Advancement.</h5>
                 <p class="post_author_datum">By <b class="post_author">Georges Miaka</b>
-                    <spam class="post_datum">June 13, 2023 - 5min read</spam>
+                    <spam class="post_datum">June 13, 2023</spam>
                 </p>
                 <div class="card">
                     <img src="frontend/assets/images/science1.png" class="card-img-top" alt="image_post">
@@ -71,7 +71,7 @@
                 <h5>Framing the World: Exploring the Art and Craft of Photography to Capture
                     Moments of Beauty and Tell Stories Through Images.</h5>
                 <p class="post_author_datum">By <b class="post_author">Georges Miaka</b>
-                    <spam class="post_datum">June 13, 2023 - 5min read</spam>
+                    <spam class="post_datum">June 13, 2023</spam>
                 </p>
                 <div class="card">
                     <img src="frontend/assets/images/me.png" class="card-img-top" alt="image_post">

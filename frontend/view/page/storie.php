@@ -15,18 +15,19 @@
 <body>
     <!-- Navbar -->
     <div class="navbar_div">
-        <?php include '../component/navbar.php'; ?>
+        <?php include '../component/navbar_stories.php'; ?>
     </div>
     <div class="mainbody_div">
         <!-- Block1: Wall -->
-    
-        Stories
+        <div class="">
+
+        </div>
     </div>
     <!-- space -->
     <div class="space_footer"></div>
     <!-- Navbar_bootom -->
     <div>
-        <?php include '../component/navbar_bottom.php'; ?>
+        <?php include '../component/navbar_bottom_stories.php'; ?>
     </div>
 </body>
 

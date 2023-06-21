@@ -65,6 +65,11 @@ li a:hover:not(.active),
     color: #F2F2F2;
 }
 
+.divider_2 {
+    height: 0.001px;
+    color: #DEE2E6
+}
+
 .footer {
     text-align: center;
 }

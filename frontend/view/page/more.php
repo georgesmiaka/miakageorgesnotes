@@ -20,7 +20,7 @@
     <div class="mainbody_div">
         <!-- Block1: Wall -->
     
-        More
+        More... coming up soon
     </div>
     <!-- space -->
     <div class="space_footer"></div>
