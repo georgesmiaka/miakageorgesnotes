@@ -51,7 +51,7 @@
                     <spam class="post_datum">June 13, 2023</spam>
                 </p>
                 <div class="card">
-                    <img src="frontend/assets/images/science1.png" class="card-img-top" alt="image_post">
+                    <img src="frontend/assets/images/science.jpg" class="card-img-top" alt="image_post">
                     <div class="card-body">
                         <p class="card-text  article_text">
                             As a science enthusiast, I have always been fascinated by the intricacies of

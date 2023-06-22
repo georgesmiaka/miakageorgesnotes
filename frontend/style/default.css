@@ -83,6 +83,10 @@ li a:hover:not(.active),
     color: gray;
 }
 
+.divider_footer {
+    width: 50%;
+}
+
 .bottom_navbar {
     overflow: hidden;
     position: fixed;

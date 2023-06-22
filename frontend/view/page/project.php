@@ -120,6 +120,12 @@
                 </div>
             </div>
         </div>
+        <!-- Space & divider -->
+        <div class="space"></div>
+        <hr class="divider divider_footer">
+        <div class="space"></div>
+        <!-- Footer -->
+        <div><?php include '../component/footer.php' ?></div>
     </div>
     <!-- space -->
     <div class="space_footer"></div>
