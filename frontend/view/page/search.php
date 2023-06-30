@@ -18,8 +18,13 @@
         <?php include '../component/navbar.php'; ?>
     </div>
     <div class="mainbody_div">
+        <!-- Page title -->
+        <div class="page_title">
+            <h1>Search</h1>
+        </div>
+        <div class="space"></div>
         <!-- Block1: Wall -->
-    
+
         Search
     </div>
     <!-- space -->

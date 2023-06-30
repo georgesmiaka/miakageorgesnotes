@@ -44,7 +44,8 @@
 @media (max-width:445px) {
 
     .post_author_datum,
-    .project_author_datum {
+    .project_author_datum, 
+    .post_category {
         font-size: 10px;
     }
 }

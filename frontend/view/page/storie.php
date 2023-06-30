@@ -18,11 +18,16 @@
         <?php include '../component/navbar_stories.php'; ?>
     </div>
     <div class="mainbody_div">
+        <!-- Page title -->
+        <div class="page_title">
+            <h1>Stories</h1>
+        </div>
+        <div class="space"></div>
         <!-- Block1: Wall -->
         <div class="stories_category">
             <a href="/frontend/view/page/stories/programming.php">
                 <div class="stories_category_1">
-                    <h5 class="storie_card_category_title"> Programming</h5>
+                    <h2 class="storie_card_category_title"> Programming</h2>
                     <div class="card">
                         <img src="/frontend/assets/images/prog1.png" class="card-img-top" alt="image_post">
                         <!--<div class="card-body">
@@ -33,7 +38,7 @@
             </a>
             <a href="/frontend/view/page/stories/science.php">
                 <div class="stories_category_2">
-                    <h5 class="storie_card_category_title"> Science</h5>
+                    <h2 class="storie_card_category_title"> Science</h2>
                     <div class="card">
                         <img src="/frontend/assets/images/science1.png" class="card-img-top" alt="image_post">
                         <!--<div class="card-body">
@@ -45,7 +50,7 @@
 
             <a href="/frontend/view/page/stories/photography.php">
                 <div class="stories_category_3">
-                    <h5 class="storie_card_category_title"> Photography</h5>
+                    <h2 class="storie_card_category_title"> Photography</h2>
                     <div class="card">
                         <img src="/frontend/assets/images/photo.png" class="card-img-top" alt="image_post">
                         <!--<div class="card-body">

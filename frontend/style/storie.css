@@ -18,19 +18,19 @@
     text-align: center;
 }
 
-.stories_category h5:link {
+.stories_category h2:link {
     text-decoration: none;
     color: #212121;
 }
-.stories_category h5:visited {
+.stories_category h2:visited {
     text-decoration: none;
     color: gray;
 }
-.stories_category h5:hover {
+.stories_category h2:hover {
     text-decoration: underline;
     color: blue;
 }
-.stories_category h5:active {
+.stories_category h2:active {
     text-decoration: underline;
     color: blue;
 }

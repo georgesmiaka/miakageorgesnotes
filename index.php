@@ -18,16 +18,21 @@
         <?php include 'frontend/view/component/navbar.php'; ?>
     </div>
     <div class="mainbody_div">
+        <!-- Page title -->
+        <div class="page_title">
+            <h1>Home</h1>
+        </div>
+        <div class="space"></div>
         <!-- Block1: Wall -->
         <div class="wall">
             <!-- Post1 -->
             <div class="post_wall">
-                <p class="post_category">Programming</p>
-                <h1>Presentation</h1>
+                <h2>Presentation</h2>
                 <h5>Unleashing Creativity and Innovation: Exploring my Programming Journey and Passion for Innovation.</h5>
                 <p class="post_author_datum">By <b class="post_author">Georges Miaka</b>
                     <spam class="post_datum">June 13, 2023</spam>
                 </p>
+                <p class="post_category">Programming</p>
                 <div class="card">
                     <img src="frontend/assets/images/prog.jpg" class="card-img-top" alt="image_post">
                     <div class="card-body">
@@ -44,12 +49,12 @@
             <div class="space"></div>
             <!-- Post2 -->
             <div class="post_wall">
-                <p class="post_category">Discovery</p>
-                <h1>Natural structures</h1>
+                <h2>Natural structures</h2>
                 <h5>Unraveling the Mysteries: A Journey into Scientific Discovery and Advancement.</h5>
                 <p class="post_author_datum">By <b class="post_author">Georges Miaka</b>
                     <spam class="post_datum">June 13, 2023</spam>
                 </p>
+                <p class="post_category">Discovery</p>
                 <div class="card">
                     <img src="frontend/assets/images/science.jpg" class="card-img-top" alt="image_post">
                     <div class="card-body">
@@ -66,13 +71,13 @@
             <div class="space"></div>
             <!-- post3 -->
             <div class="post_wall">
-                <p class="post_category">Photography</p>
-                <h1>Exploring the World</h1>
+                <h2>Exploring the World</h2>
                 <h5>Framing the World: Exploring the Art and Craft of Photography to Capture
                     Moments of Beauty and Tell Stories Through Images.</h5>
                 <p class="post_author_datum">By <b class="post_author">Georges Miaka</b>
                     <spam class="post_datum">June 13, 2023</spam>
                 </p>
+                <p class="post_category">Photography</p>
                 <div class="card">
                     <img src="frontend/assets/images/me.png" class="card-img-top" alt="image_post">
                     <div class="card-body">

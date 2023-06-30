@@ -11,8 +11,7 @@
 }
 .post_category {
     width: fit-content;
-    padding-bottom: 7px;
-    border-bottom: solid 1px #000;
+    font-size: 11px;
 }
 
 .post_author {

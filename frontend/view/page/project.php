@@ -17,16 +17,22 @@
     <div class="navbar_div">
         <?php include '../component/navbar.php'; ?>
     </div>
+
     <div class="mainbody_div">
+        <!-- Page title -->
+        <div class="page_title">
+            <h1>Projects</h1>
+        </div>
+        <div class="space"></div>
         <!-- Project1 -->
         <div class="project_presentation">
-            <p class="project_category">Programming</p>
-            <h1>Memocraft - Virtual Self Communication System</h1>
+            <h2>Memocraft - Virtual Self Communication System</h2>
             <h5>Exploring the Frontiers of Personalized Interaction:
                 How Memocraft's Virtual Self System Revolutionizes Human-AI Engagement</h5>
             <p class="project_author_datum">By <b class="project_author">Georges Miaka</b>
                 <spam class="project_datum">June 13, 2023 </spam>
             </p>
+            <!--<p class="project_category">Programming</p>-->
             <!-- space -->
             <div class="space"></div>
             <div class="project_presentation_body">
@@ -85,13 +91,13 @@
         <div class="space"></div>
         <!-- Project2 -->
         <div class="project_presentation">
-            <p class="project_category">Programming</p>
-            <h1>Introducing Qltura: Redefining Social Media for Positive Connections and Mental Well-being</h1>
+            <h2>Introducing Qltura: Redefining Social Media for Positive Connections and Mental Well-being</h2>
             <h5>Discover how Qltura, the groundbreaking social media app, is revolutionizing the digital landscape by fostering inclusivity,
                 combating discrimination, and promoting genuine human connections while prioritizing mental well-being.</h5>
             <p class="project_author_datum">By <b class="project_author">Georges Miaka</b>
                 <spam class="project_datum">June 13, 2023 </spam>
             </p>
+            <!--<p class="project_category">Programming</p>-->
             <!-- space -->
             <div class="space"></div>
             <div class="project_presentation_body">

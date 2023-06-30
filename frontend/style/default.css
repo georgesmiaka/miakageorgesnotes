@@ -120,3 +120,7 @@ li a:hover:not(.active),
 .color_text_black {
     color: #212121;
 }
+.page_title {
+    border-bottom: 1px solid #F2F2F2;
+    width:90%;
+}
