@@ -4,11 +4,11 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Georgesnotes - Projects</title>
+    <title>Georgesnotes - More</title>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
     <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/blog/">
     <link href="../../style/default.css" rel="stylesheet" type="text/css">
-    <link href="../../style/more.css" rel="stylesheet" type="text/css">
+    <link href="../../style/search.css" rel="stylesheet" type="text/css">
     <link href="../../style/responsive.css" rel="stylesheet" type="text/css">
 </head>
 
@@ -18,9 +18,14 @@
         <?php include '../component/navbar.php'; ?>
     </div>
     <div class="mainbody_div">
+        <!-- Page title -->
+        <div class="page_title">
+            <h1>More</h1>
+        </div>
+        <div class="space"></div>
         <!-- Block1: Wall -->
-    
-        More... coming up soon
+
+        Coming up soon...
     </div>
     <!-- space -->
     <div class="space_footer"></div>

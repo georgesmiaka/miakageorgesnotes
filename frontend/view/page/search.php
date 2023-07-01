@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Georgesnotes - Projects</title>
+    <title>Georgesnotes - Search</title>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
     <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/blog/">
     <link href="../../style/default.css" rel="stylesheet" type="text/css">
@@ -25,7 +25,7 @@
         <div class="space"></div>
         <!-- Block1: Wall -->
 
-        Search
+        Coming up soon...
     </div>
     <!-- space -->
     <div class="space_footer"></div>
