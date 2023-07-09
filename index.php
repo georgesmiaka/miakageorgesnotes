@@ -16,6 +16,8 @@
     <!-- Navbar -->
     <div class="navbar_div">
         <?php include 'frontend/view/component/navbar.php'; ?>
+        <?php include 'backend/conn.php'; ?>
+        <?php //include 'backend/admin.php'; ?>-
     </div>
     <div class="mainbody_div">
         <!-- Page title -->
@@ -25,74 +27,35 @@
         <div class="space"></div>
         <!-- Block1: Wall -->
         <div class="wall">
-            <!-- Post1 -->
-            <div class="post_wall">
-                <h2>Presentation</h2>
-                <h5>Unleashing Creativity and Innovation: Exploring my Programming Journey and Passion for Innovation.</h5>
-                <p class="post_author_datum">By <b class="post_author">Georges Miaka</b>
-                    <spam class="post_datum">June 13, 2023</spam>
-                </p>
-                <p class="post_category">Programming</p>
-                <div class="card">
-                    <img src="frontend/assets/images/prog.jpg" class="card-img-top" alt="image_post">
-                    <div class="card-body">
-                        <p class="card-text article_text">
-                            As a software developer, I constantly strive to keep up with the latest trends and
-                            seek out new challenges. Programming is my passion, and I find creative freedom in it.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <!-- Space & divider -->
-            <div class="space"></div>
-            <hr class="divider">
-            <div class="space"></div>
-            <!-- Post2 -->
-            <div class="post_wall">
-                <h2>Natural structures</h2>
-                <h5>Unraveling the Mysteries: A Journey into Scientific Discovery and Advancement.</h5>
-                <p class="post_author_datum">By <b class="post_author">Georges Miaka</b>
-                    <spam class="post_datum">June 13, 2023</spam>
-                </p>
-                <p class="post_category">Discovery</p>
-                <div class="card">
-                    <img src="frontend/assets/images/science.jpg" class="card-img-top" alt="image_post">
-                    <div class="card-body">
-                        <p class="card-text  article_text">
-                            As a science enthusiast, I have always been fascinated by the intricacies of
-                            the natural world and the way that science helps us understand it.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <!-- Space & divider -->
-            <div class="space"></div>
-            <hr class="divider">
-            <div class="space"></div>
-            <!-- post3 -->
-            <div class="post_wall">
-                <h2>Exploring the World</h2>
-                <h5>Framing the World: Exploring the Art and Craft of Photography to Capture
-                    Moments of Beauty and Tell Stories Through Images.</h5>
-                <p class="post_author_datum">By <b class="post_author">Georges Miaka</b>
-                    <spam class="post_datum">June 13, 2023</spam>
-                </p>
-                <p class="post_category">Photography</p>
-                <div class="card">
-                    <img src="frontend/assets/images/me.png" class="card-img-top" alt="image_post">
-                    <div class="card-body">
-                        <p class="card-text  article_text">
-                            My love for photography has also inspired me to explore new places and seek out unique and interesting subjects to photograph.
-                            Whether I'm writing code, exploring the wonders of the natural world, or capturing the essence of a unique subject through
-                            my camera lens, I am constantly discovering new ways to challenge myself and expand my horizons.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <!-- Space & divider -->
-            <div class="space"></div>
-            <hr class="divider">
-            <div class="space"></div>
+            <!-- Posts-->
+
+            <?php 
+            $result = getAllArticles(); 
+            // Showing posts
+            while ($row = $result->fetchArray(SQLITE3_ASSOC)) {
+                echo '<div class="post_wall">';
+                echo '<h2>' . $row['title'] . '</h2>';
+                echo '<h5>' . $row['subtitle'] . '</h5>';
+                echo '<p class="post_author_datum"> By ';
+                echo '<b class="post_author">' . $row['author'] . '</b>';
+                echo '<spam class="post_datum">' . $row['created_at'] . '</spam>';
+                echo '</p>';
+                echo '<p class="post_category">' . $row['category'] . '</p>';
+                echo '<div class="card">';
+                echo '<img class="card-img-top" alt="image_post" src="https://drive.google.com/uc?export=view&id=' . $row['cover'] . '"/>';
+                echo '<div class="card-body">';
+                echo '<p class="card-text article_text">' . $row['coverdescription'] . '</p>';
+                echo '</div>';
+                echo '</div>';
+                echo '</div>';
+                
+                // Space & divider
+                echo '<div class="space"></div>';
+                echo '<hr class="divider">';
+                echo '<div class="space"></div>';
+            }
+            ?>
+
             <!-- Footer -->
             <div class="footer_wall"><?php include 'frontend/view/component/footer.php' ?></div>
         </div>
