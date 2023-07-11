@@ -3,12 +3,15 @@
     display: inline-block;
     vertical-align: top;
 }
+
 .wall {
-    width: 55%; 
+    width: 55%;
 }
+
 .card img {
     width: 95%;
 }
+
 .post_category {
     width: fit-content;
     font-size: 11px;
@@ -23,7 +26,9 @@
     padding-left: 7px;
     color: gray;
 }
-.post_wall h5, .card-text {
+
+.post_wall h5,
+.card-text {
     width: 95%;
 }
 
@@ -41,8 +46,9 @@
 .title_article_suggest {
     vertical-align: middle;
 }
+
 .title_article_suggest {
-    padding-left: 5px;
+    padding-left: 15px;
 }
 
 .link_article_suggest:link {
@@ -50,14 +56,17 @@
     text-decoration: none;
     color: #212121;
 }
+
 .link_article_suggest:visited {
     text-decoration: none;
     color: gray;
 }
+
 .link_article_suggest:hover {
     text-decoration: underline;
     color: blue;
 }
+
 .link_article_suggest:active {
     text-decoration: underline;
     color: blue;
@@ -65,6 +74,5 @@
 
 .article_suggesttion_x {
     padding-bottom: 15px;
+    
 }
-
-  

@@ -34,6 +34,42 @@ function getAllArticles()
     $result = $stmt->execute();
     return $result;
 }
+// Function to fetch wall articles from SQLite
+function getWallArticles()
+{
+    global $connection;
+
+    $stmt = $connection->prepare('SELECT * FROM articles ORDER BY created_at DESC LIMIT 20 ');
+    $result = $stmt->execute();
+    return $result;
+}
+// Function to fetch suggested articles from SQLite
+function getSuggestedArticles()
+{
+    global $connection;
+
+    $stmt = $connection->prepare('SELECT * FROM articles ORDER BY RANDOM() LIMIT 3 ');
+    $result = $stmt->execute();
+    return $result;
+}
+// Function to fetch last tweet from SQLite
+function getLastTweet()
+{
+    global $connection;
+
+    $stmt = $connection->prepare('SELECT * FROM articles ORDER BY RANDOM() LIMIT 1 ');
+    $result = $stmt->execute();
+    return $result;
+}
+// Function to fetch last post from SQLite
+function getLastPost()
+{
+    global $connection;
+
+    $stmt = $connection->prepare('SELECT * FROM articles ORDER BY created_at DESC LIMIT 2');
+    $result = $stmt->execute();
+    return $result;
+}
 // Function to fetch a single article by ID
 function getArticleById($id)
 {
