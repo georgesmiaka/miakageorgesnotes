@@ -17,8 +17,8 @@
     <div class="navbar_div">
         <?php include 'frontend/view/component/navbar.php'; ?>
         <?php include 'frontend/view/component/component.php'; ?>
-        <?php include 'backend/conn.php'; ?>
-        <?php //include 'backend/admin.php'; 
+        <?php include 'backend/connect/conn.php'; ?>
+        <?php //include 'backend/admin/admin.php'; 
         ?>-
     </div>
     <div class="mainbody_div">
